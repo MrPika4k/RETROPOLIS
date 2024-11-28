@@ -1,0 +1,346 @@
+h1{
+    font-size: 100px;
+    text-shadow: -5px 5px black;
+}
+
+h2{
+    text-shadow: -2px 2px rgb(23, 0, 135);
+}
+
+footer h2{
+    text-shadow: -2px 2px black;
+}
+
+footer{
+    padding: 10px;
+    
+}
+
+.fa-brands{   
+    
+    display: inline-block;    
+    background: #000000;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #DBD3D3;
+    border-radius: 10px;
+    margin: 20px;
+    flex-direction: column;
+
+}
+
+.fa-youtube{
+    color: red;
+    text-shadow: -1px 0 rgb(255, 255, 255);
+}
+
+.fa-facebook{
+    color: rgb(93, 65, 252);
+    text-shadow: -1px 0 rgb(255, 255, 255);
+}
+
+.fa-instagram{
+    color: #FF4E88;
+    text-shadow: -1px 0 rgb(255, 255, 255);
+}
+
+.fa-twitter{
+    color: rgb(0, 225, 255);
+    text-shadow: -1px 0 rgb(255, 255, 255);
+}
+
+body{
+    color: rgb(255, 255, 255);
+    background: #4F1787;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+.barra{
+    display: inline-block; 
+}
+
+.barra input{
+    width: 300px;
+    height: 30px;
+    padding: 0 20px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px 0 0 5px;
+
+}
+
+button{
+    color: white;
+    background-color: #180161;
+    padding: 8px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.CD{
+    display: flex;    
+}
+
+.SubtituloCD{
+    font-style: italic; 
+}
+
+.container{    
+    padding: 10px 20px;
+    justify-content: space-around;
+    background-color: #0B192C;
+    text-align: center;
+    border-radius: 10px
+}
+
+.Sinogsis{
+    display: flex;
+    
+}
+
+.Subtitulo{
+    text-align: left;
+    font-style: italic; 
+}
+
+iframe{
+    padding: 5px;
+}
+
+.columna{
+    
+    color: rgb(255, 255, 255);
+    display: inline-block;    
+    background: #01b0dc;
+    padding: 10px 20px;
+    width: 20%;    
+    margin: 10px;
+    border: 3px solid #DBD3D3;
+    border-radius: 10px;
+    text-decoration: none;    
+}
+
+.container .fa-brands{
+    height: 200px;
+    font-size: 200px;   
+
+}
+
+.container .play:hover{
+    background-color: #0007db;
+
+}
+
+.container .fa-playstation:hover{
+    background-color: #0007db;
+    
+
+}
+
+.container .xbox:hover{
+    background-color: #1ddc00;
+
+}
+
+.container .fa-xbox:hover{
+    background-color: #1ddc00;
+
+}
+
+.container .steam:hover{
+    background-color: #0155cb;
+
+}
+
+.container .fa-steam:hover{
+    background-color: #0155cb;
+
+}
+
+.container .gamepad:hover{
+    background-color: red;
+
+}
+
+.container .fa-gamepad:hover{
+    background-color: red;
+
+}
+
+.container .fa-solid{
+    height: 200px;
+    font-size: 200px;
+
+}
+
+.columna:hover{
+    background: #091057;
+    color: black;
+}
+
+.Formulario{
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: inline-block;    
+    background: #01b0dc;
+    padding: 10px 20px;
+    width: 30%;
+    margin: 20px;
+    border: 3px solid #DBD3D3;
+    border-radius: 10px;
+}
+
+.btn{
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    justify-content: space-around;    
+    text-align: center;    
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+form .btn{
+    color: white;
+    font-size: 20px;
+}
+
+form textarea{
+    height: 200px;
+    width: 300px;
+    
+}
+
+textarea{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+@media (max-width:1024px){
+    .CD img{
+        height: 270px;
+        width: 400px;
+        text-align: center;
+    }
+    .columna{
+        font-size: 25px;
+        width: 15%;
+    }
+    
+    .container .fa-brands{
+        height: 70px;
+        font-size: 70px;
+    }
+    .container .fa-solid{
+        height: 70px;
+        font-size: 70px;
+    
+    }
+    .Formulario{           
+        width: 50%;
+        flex-direction: column;
+                
+    }
+    .btn{        
+        margin: 40px;
+    }
+    .Sinogsis img{
+        padding: 5px;
+    }
+}
+
+@media (max-width:768px){
+    .Sinogsis{
+        flex-direction: column;         
+    }
+    .Subtitulo{
+        text-align: center;
+    }
+    .CD{
+        font-size: 10px;        
+    }
+    .CD img{
+        height: 200px;
+        width: 300px;
+    }
+    .columna{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:480px){
+
+    .Sinogsis{
+        flex-direction: column;         
+    }
+    .CD{
+        flex-direction: column;
+        font-size: 15px; 
+    }
+    .CD img{
+        height: 200px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .columna{
+        font-size: 10px;
+        width: 8%;
+    }
+    
+    .container .fa-brands{
+        height: 40px;
+        font-size: 40px;
+    }
+    .container .fa-solid{
+        height: 40px;
+        font-size: 40px;
+    
+    }
+    .Subtitulo{
+        text-align: center;
+    }
+    .Formulario{           
+        width: 80%;
+        flex-direction: column;
+
+    }
+    form textarea{
+        height: 200px;
+        width: 75%;
+        
+    }
+    img{
+        height: 200px;
+        width: 300px;
+        text-align: center;
+    }
+    iframe{
+        
+        height: 200px;
+        width: 420px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    .barra input{
+        width: 250px;
+    }
+
+    .Sinogsis img{
+        height: 200px;
+        width: 300px;
+    }
+
+}
+
+
+
+
+
